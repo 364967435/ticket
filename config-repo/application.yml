@@ -1,0 +1,7 @@
+eureka:
+  instance:
+    hostname: ticket-registry
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://user:123456@registry:8761/eureka/
